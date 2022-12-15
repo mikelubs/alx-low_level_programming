@@ -26,12 +26,12 @@ void jack_bauer(void)
 		if (r > 5)
 		{
 			r = 0;
-			r++;
+			q++;
 		}
 		if (q > 9)
 		{
 			q = 0;
-			q++;
+			p++;
 		}
 		t++;
 	}
