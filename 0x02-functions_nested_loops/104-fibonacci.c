@@ -10,16 +10,16 @@ int main(void)
 {
 	int c = 2;
 
-	int x = 1;
-	int y = x + 1;
-	int z = x + y;
+	long int x = 1;
+	long int y = x + 1;
+	long int z = x + y;
 
-	printf("%i, ", x);
-	printf("%i, ", y);
+	printf("%lu, ", x);
+	printf("%lu, ", y);
 	while (c < 98)
 	{
 		c++;
-		printf("%i", z);
+		printf("%lu", z);
 		x = y;
 		y = z;
 		z = x + y;
