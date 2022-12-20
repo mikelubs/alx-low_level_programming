@@ -4,26 +4,26 @@
  * Description: Numbers must be separated by comma
  * allowed to use a standard library
  * not allowed to use `long long`
- * Return: nothing
+ * Return: 0
  */
 int main(void)
 {
-	int counter = 2;
+	int c = 2;
 
-	float x = 1;
-	float y = x + 1;
-	float z = x + y;
+	int x = 1;
+	int y = x + 1;
+	int z = x + y;
 
-	printf("%.0f, ", x);
-	printf("%.0f, ", y);
-	while (counter < 98)
+	printf("%i, ", x);
+	printf("%i, ", y);
+	while (c < 98)
 	{
-		counter++;
-		printf("%.0f", z);
+		c++;
+		printf("%i", z);
 		x = y;
 		y = z;
 		z = x + y;
-		if (counter < 98)
+		if (c < 98)
 		{
 			printf(", ");
 		}
