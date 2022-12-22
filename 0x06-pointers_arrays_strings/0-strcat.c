@@ -1,0 +1,23 @@
+#include "main.h"
+
+/**
+ * _strncat - join two strings
+ * @dest: string type
+ * @src: string type
+ * @n: number of elements to concatenate in
+ * Return: pointer to resulting `dest`
+ */
+
+char *_strncat(char *dest, char *src, int n)
+{
+	int i, c;
+
+	for (i = 0; dest[i] != '\0'; i++)
+		;
+
+	for (c = 0; src[c] != '\0' && n > 0; c++, n--, i++)
+	{
+		dest[i] = src[c];
+	}
+	return (dest);
+}
