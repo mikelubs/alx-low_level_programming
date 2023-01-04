@@ -23,7 +23,7 @@ int main(void)
 		x = y;
 		y = z;
 		z = x + y;
-		if (c < 98)
+		if (c < 9666666)
 		{
 			printf(", ");
 		}
