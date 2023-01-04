@@ -16,7 +16,7 @@ int main(void)
 	for (i = 0; i < 96; i++)
 	{
 		c = a + b;
-		printf("%ld\n", c);
+		printf("%ld, ", c);
 		a = b;
 		b = c;
 	}
