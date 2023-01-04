@@ -15,10 +15,17 @@ int main(void)
 	printf("%ld, %ld, ", a, b);
 	for (i = 0; i < 96; i++)
 	{
+		if (i < 95)
+		{
 		c = a + b;
 		printf("%ld, ", c);
 		a = b;
 		b = c;
+		}
+		else
+		{
+		printf("%ld, ", c);
+		}
 	}
 	return (0);
 }
