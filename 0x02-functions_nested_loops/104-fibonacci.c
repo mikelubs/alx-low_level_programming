@@ -16,7 +16,7 @@ int main(void)
 
 	printf("%lu, ", x);
 	printf("%lu, ", y);
-	while (c < 100)
+	while (c < 99)
 	{
 		c++;
 		printf("%lu", z);
