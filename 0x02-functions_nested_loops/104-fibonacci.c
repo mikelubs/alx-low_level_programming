@@ -6,28 +6,20 @@
  * not allowed to use `long long`
  * Return: 0
  */
+
 int main(void)
 {
-	int c = 2;
+	int i;
+	long a = 1, b = 2, c;
 
-	long int x = 1;
-	long int y = x + 1;
-	long int z = x + y;
-
-	printf("%lu, ", x);
-	printf("%lu, ", y);
-	while (c < 99)
+	printf("%ld, %ld\n", a, b);
+	for (i = 0; i < 96; i++)
 	{
-		c++;
-		printf("%lu", z);
-		x = y;
-		y = z;
-		z = x + y;
-		if (c < 9666666)
-		{
-			printf(", ");
-		}
+		c = a + b;
+		printf("%lld\n", c);
+		a = b;
+		b = c;
 	}
-	printf("\n");
 	return (0);
 }
+
