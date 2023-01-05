@@ -13,3 +13,4 @@ int sol(int c, int i);
 int is_palindrome(char *s);
 int pal_check(char *s, int l);
 int get_l(char *s);
+int wildcmp(char *s1, char *s2);
