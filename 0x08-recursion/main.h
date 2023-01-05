@@ -8,4 +8,4 @@ int _sqrt_recursion(int n);
 int is_prime_number(int n);
 int help(int c, int i);
 int hsqrt(int n, int d);
-int sqrt(int x, int i);
+int sq_rt(int x, int i);
