@@ -12,7 +12,7 @@ int is_palindrome(char *s)
 
 	len = get_l(s) - 1;
 
-	return (my_pal(s, --len));
+	return (pal_check(s, --len));
 }
 
 /**
