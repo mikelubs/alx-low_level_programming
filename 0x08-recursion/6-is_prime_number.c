@@ -44,8 +44,8 @@ int hsqrt(int j, int k)
 {
 	if (j % k == 0)
 		return (0);
-	else if (sq_rt(n, 1) < d)
+	else if (sq_rt(j, 1) < k)
 		return (1);
 	else
-		return (hsqrt(n, d + 1));
+		return (hsqrt(j, k + 1));
 }
