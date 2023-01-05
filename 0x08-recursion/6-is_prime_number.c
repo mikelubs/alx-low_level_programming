@@ -12,7 +12,7 @@ int is_prime_number(int n)
 		return (0);
 	if (n < 4)
 		return (1);
-	return (hai(n, 2));
+	return (hsqrt(n, 2));
 }
 
 /**
@@ -22,7 +22,7 @@ int is_prime_number(int n)
  * Return: square root of `x`
  */
 
-int sqrt(int x, int i)
+int sq_rt(int x, int i)
 {
 	int sq;
 
@@ -30,7 +30,7 @@ int sqrt(int x, int i)
 	if (sq >= x)
 		return (i);
 	else
-		return (sqrt(x, i + 1));
+		return (sq_rt(x, i + 1));
 }
 
 /**
@@ -44,7 +44,7 @@ int hsqrt(int j, int k)
 {
 	if (j % k == 0)
 		return (0);
-	else if (sqrt(n, 1) < d)
+	else if (sq_rt(n, 1) < d)
 		return (1);
 	else
 		return (hsqrt(n, d + 1));
