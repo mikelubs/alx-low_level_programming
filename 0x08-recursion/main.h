@@ -10,3 +10,4 @@ int help(int c, int i);
 int hsqrt(int n, int d);
 int sq_rt(int x, int i);
 int sol(int c, int i);
+int is_palindrome(char *s);
