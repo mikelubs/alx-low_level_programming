@@ -1,3 +1,3 @@
 #!/bin/bash
 cc -c *.c
-ar rcis liball.a *.o
+ar rcs liball.a *.o
