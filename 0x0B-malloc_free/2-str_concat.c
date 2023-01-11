@@ -3,8 +3,8 @@
 
 /**
  * str_concat - concatenate two strings
- * @s1: string 
- * @s2: string 
+ * @s1: string
+ * @s2: string
  * Return: pointer to concat string
  */
 
